@@ -1,31 +1,27 @@
 # Yandex ML Tutorials
 
-My solutions to tutorial notebooks from [Yandex ML School](https://mlschool.yandex.uz/) (Uzbekistan).
-The exercises and notebook structure belong to the course; the solutions and extra notes are my own.
+My solutions to tutorial notebooks from Yandex ML School (Uzbekistan).
+The exercises and notebook structure belong to the course; the solutions are my own.
 
 ## Structure
 
 | Folder | Course | Status |
 |---|---|---|
-| `ml-fundamentals/` | Machine Learning | In progress |
-| `deep-learning/` | Deep Learning | Upcoming |
-| `reinforcement-learning/` | Reinforcement Learning | Upcoming |
+| `ml/` | Machine Learning | In progress |
 
-## ML Fundamentals
+## Machine Learning (`ml/`)
 
 | # | Notebook | Topics |
 |---|---|---|
-| 01 | `01-mle.ipynb` | Likelihood, log-likelihood, maximum likelihood estimation |
-| 02 | `02-knn.ipynb` | k-NN, L1/L2 distances, vectorization, preprocessing |
+| 01 | `week0_01_01_ml_workflow_and_baseline.ipynb` | ML workflow, train/test split, baseline models |
+| 02 | `week0_01_02_knn_practice.ipynb` | k-Nearest Neighbors, distance metrics |
+| 03 | `week0_02_01_linear_regression.ipynb` | Linear regression, least squares, MSE |
+| 04 | `week0_03_01_regularisation_and_validation.ipynb` | Regularisation (L1/L2), validation, cross-validation |
 
 ## Setup
 
 ```bash
-pip install numpy matplotlib jupyter
-jupyter notebook
+pip install numpy pandas matplotlib scikit-learn
 ```
 
-## Notes
-
-- Datasets may not be included; see each notebook for where to get them.
-- Notebooks were written while learning, so some solutions may not be optimal.
+Open the notebooks in VS Code (Jupyter extension) or with `jupyter notebook`.
